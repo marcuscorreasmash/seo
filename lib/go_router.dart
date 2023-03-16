@@ -14,6 +14,8 @@ final router = GoRouter(
         if (kIsWeb) {
           MetaSEO meta = MetaSEO();
 
+          meta.facebookAppID(facebookAppID: '907392233836786');
+
           meta.description(description: 'First Screen Description');
           meta.keywords(keywords: 'Page 1, Flutter, Dart, SEO, Meta, Web');
 
@@ -39,6 +41,7 @@ final router = GoRouter(
         if (kIsWeb) {
           MetaSEO meta = MetaSEO();
 
+          meta.facebookAppID(facebookAppID: '907392233836786');
           meta.description(description: 'Second Screen Description');
           meta.keywords(keywords: 'Page 2, Flutter, Dart, SEO, Meta, Web');
 
