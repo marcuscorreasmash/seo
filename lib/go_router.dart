@@ -18,13 +18,15 @@ final router = GoRouter(
           meta.keywords(keywords: 'Page 1, Flutter, Dart, SEO, Meta, Web');
 
           meta.ogImage(
-              ogImage: 'https://smash.imgix.net/partners_new/ifood.png');
+              ogImage:
+                  'https://www.infomoney.com.br/wp-content/uploads/2023/03/5A36E1E1-8799-49E0-90D3-46C54D06CB9C.jpeg?resize=916%2C515&quality=50&strip=all');
           meta.ogDescription(ogDescription: 'First Screen OG');
           meta.ogTitle(ogTitle: 'First Screen');
 
           meta.twitterDescription(twitterDescription: 'First Screen OG');
           meta.twitterImage(
-              twitterImage: 'https://smash.imgix.net/partners_new/ifood.png');
+              twitterImage:
+                  'https://www.infomoney.com.br/wp-content/uploads/2023/03/5A36E1E1-8799-49E0-90D3-46C54D06CB9C.jpeg?resize=916%2C515&quality=50&strip=all');
           meta.twitterTitle(twitterTitle: 'First Screen');
         }
 
