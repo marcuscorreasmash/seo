@@ -8,7 +8,7 @@ void main() {
   setUrlStrategy(PathUrlStrategy());
 
   if (kIsWeb) {
-    MetaSEO().seoMetaConfig();
+    MetaSEO().config();
   }
   runApp(const MyApp());
 }

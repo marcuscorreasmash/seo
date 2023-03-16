@@ -14,11 +14,18 @@ final router = GoRouter(
         if (kIsWeb) {
           MetaSEO meta = MetaSEO();
 
-          meta.seoOGTitle('First Screen');
-          meta.seoDescription('First Screen Description');
-          meta.seoKeywords('Page 1, Flutter, Dart, SEO, Meta, Web');
-          meta.seoOGImage('https://smash.imgix.net/partners_new/ifood.png');
-          meta.seoOGDescription('First Screen OG');
+          meta.description(description: 'First Screen Description');
+          meta.keywords(keywords: 'Page 1, Flutter, Dart, SEO, Meta, Web');
+
+          meta.ogImage(
+              ogImage: 'https://smash.imgix.net/partners_new/ifood.png');
+          meta.ogDescription(ogDescription: 'First Screen OG');
+          meta.ogTitle(ogTitle: 'First Screen');
+
+          meta.twitterDescription(twitterDescription: 'First Screen OG');
+          meta.twitterImage(
+              twitterImage: 'https://smash.imgix.net/partners_new/ifood.png');
+          meta.twitterTitle(twitterTitle: 'First Screen');
         }
 
         return const FirstScreen();
@@ -30,11 +37,18 @@ final router = GoRouter(
         if (kIsWeb) {
           MetaSEO meta = MetaSEO();
 
-          meta.seoOGTitle('Second Screen');
-          meta.seoDescription('Second Screen Description');
-          meta.seoKeywords('Page 2, Flutter, Dart, SEO, Meta, Web');
-          meta.seoOGImage('https://smash.imgix.net/partners_new/spotify.png');
-          meta.seoOGDescription('Second Screen OG');
+          meta.description(description: 'Second Screen Description');
+          meta.keywords(keywords: 'Page 2, Flutter, Dart, SEO, Meta, Web');
+
+          meta.ogImage(
+              ogImage: 'https://smash.imgix.net/partners_new/ifood.png');
+          meta.ogDescription(ogDescription: 'Second Screen OG');
+          meta.ogTitle(ogTitle: 'Second Screen');
+
+          meta.twitterDescription(twitterDescription: 'Second Screen OG');
+          meta.twitterImage(
+              twitterImage: 'https://smash.imgix.net/partners_new/ifood.png');
+          meta.twitterTitle(twitterTitle: 'Second Screen');
         }
 
         return const SecondScreen();
